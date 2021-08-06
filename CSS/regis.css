@@ -1,0 +1,295 @@
+
+html,body {
+  margin: 0;
+  padding: 0;
+  background-color: #293f50;
+  
+  width: 100vw;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header {
+min-width: 1000px;
+max-width: 1500px;
+
+   /* width: 100%;
+    height: 100%;
+    height: min-content;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    position: fixed;*/
+
+ 
+}
+.header-top {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.topic p {
+  font-size: 40px;
+  color: white;
+}
+.info {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-bottom: 50px;
+  align-content: flex-end;
+  place-items: center;
+ 
+}
+.date {
+  color: #648880;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  display: flex;
+}
+
+.navigation {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navigation ul li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+.header-bottom {
+  /*display: grid;
+   place-items: center;*/
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+  /*height: 195px;*/
+}
+
+.bold {
+  font-size: 30px;
+  color: #648880;
+  margin-bottom: 20px;
+ 
+}
+.light {
+  font-size: 20px;
+  color: grey;
+ 
+  
+}
+.light p{
+ width: 80%;
+  margin: 0 auto;
+}
+
+.topic p:hover {
+  color: #648880;
+}
+.topic a {
+  text-decoration: none;
+}
+.main {
+ min-width: 1000px;
+ 
+  background-color: white;
+  /*display: grid;
+  grid-template-columns: 500px 350px;
+  justify-content: space-evenly;*/
+  /*padding-top: 80px;
+  padding-bottom: 40px;*/
+}
+.content
+{
+ 
+  
+  display: inline-flex;
+    width: 100%;
+   
+   /* left: 0;
+    top: 80%;
+    overflow: auto;
+    position: fixed;*/
+
+}
+.purchase
+
+{
+  float: left;
+ 
+  padding: 40px;
+}
+
+.form
+{
+  float: right;
+ 
+  padding: 40px;
+ 
+}
+
+
+
+
+.header a:hover {
+  color: #648880;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#color {
+  margin-top: 0;
+  color: darkgrey;
+}
+h2,
+h3 {
+  color: #648880;
+}
+p {
+  color: grey;
+  font-size: 20px;
+}
+li {
+  list-style-type: square;
+  color: grey;
+  font-size: 15px;
+}
+form {
+  margin-left: 60px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input,
+select {
+  margin-bottom: 15px;
+}
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+textarea {
+  width: 300px;
+  height: 80px;
+  border-radius: 5px;
+}
+select {
+  width: 50px;
+}
+button {
+  border-radius: 5px;
+  background-color: #293f50;
+  padding: 10px 20px;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+.footer {
+  clear: both;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+  
+}
+.copyright {
+  color: #648880;
+}
+.footer-nav ul {
+  display: flex;
+}
+.footer-nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer-nav ul li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+@media screen and (max-width:
+800px) {
+  .header{
+    font-size: 30px;
+  }
+  
+  .light p,.bold
+  {
+    font-size: 30px;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .purchase{
+    width: 50%;
+    font-size: 30px;
+  }
+  .form{
+    width: 50%;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width:450px
+)
+{
+  .header{
+    font-size: 30px;
+     height: 480px;
+  }
+  .light p,.bold {
+    font-size: 30px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .purchase{
+    width: 40%;
+   
+  }
+  .purchase p,li,.light{
+     font-size: 30px;
+  }
+  .form{
+    width: 50%;
+    font-size: 30px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  input {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+textarea {
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
+}
+select {
+  width: 80px;
+}
+button
+{
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+}
+}
+ 

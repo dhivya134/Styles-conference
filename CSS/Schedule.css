@@ -1,0 +1,193 @@
+html,body{
+ margin: 0;
+ padding: 0;
+ background-color: #293f50;
+ width: 100vw;
+ height: 100vh;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+}
+.header
+{
+  min-width: 1000px;
+}
+.header-top
+{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.light p{
+ width: 80%;
+  margin: 0 auto;
+}
+.topic p
+{
+    font-size: 40px;
+   color: white;
+   
+}
+.info
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-bottom: 50px;
+  align-content: flex-end;
+  place-items: center;
+ 
+}
+.date
+{
+    color: #648880;
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+   width: fit-content;
+   display: flex;
+  
+}
+
+.navigation{
+    padding-top:10px;
+    padding-left: 20px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navigation ul li
+{
+    list-style-type:none ;
+    margin-right: 10px;   
+}
+.header-bottom
+{
+   /*display: grid;
+   grid-template-columns: 1fr;
+   place-items: center;*/
+   text-align: center;
+   padding: 50px 20px;
+   background:linear-gradient(to right, #a1d3b0, #f6f1d3);
+   /*height: 195px;*/
+   
+}
+.bold
+{
+    font-size: 30px;
+    color: #648880;
+    margin-bottom: 20px;
+}
+.header a:hover{
+    color:#648880 ;
+}
+.light
+{
+    font-size: 20px;
+    color: grey;
+}
+.main
+{
+    min-width: 1000px;
+    background-color: white;
+    padding-top: 70px;
+    
+}
+.topic p:hover{
+  color:#648880 ;
+  
+}
+.topic a{
+    text-decoration: none;
+}
+table{
+ 
+ margin-bottom: 30px;
+ width: 900px;
+ margin-left: auto;
+ margin-right: auto;
+border-spacing: 0;
+
+
+}
+th{
+    font-size: 20px;
+     color: #648880;
+}
+td h3{
+    margin-bottom: 0;
+    font-weight: normal;
+    
+}
+td p{
+    margin-top: 0;
+    
+}
+.right
+{
+    text-align: right;
+}
+th,td{
+   
+    padding: 20px;
+    
+}
+
+.line
+
+{
+    border-bottom: 1px solid grey;
+    padding: 0;
+  
+}
+
+table a{
+    text-decoration: none;
+    
+ 
+}
+table a p{
+color: grey;
+}
+table a h3{
+     color: #648880;
+}
+table td
+{
+    color: darkgrey;
+}
+table a p:hover
+{
+    color: darkgrey;
+}
+.footer
+{
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+     
+}
+.copyright
+{
+    color: #648880;
+}
+.footer-nav ul
+{
+  
+   display: flex;
+   
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-nav ul li
+{
+    list-style-type:none ;
+    margin-right: 10px;   
+}
